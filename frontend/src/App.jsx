@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link2, Copy, Trash2, ExternalLink, Plus, Search, TrendingUp } from 'lucide-react';
 
 // API Service
-const API_BASE = 'http://localhost:3001';
+const API_BASE = 'https://tiny-link-backend-89bi.onrender.com/';
 
 const api = {
   async createLink(originalUrl, customCode = null) {
